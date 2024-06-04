@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <span>TOKEN DEAL FRONTEND LIVE CODING</span>
+      <div className="deleteMe">
+        <span>TOKEN DEAL FRONTEND LIVE CODING</span>
+      </div>
     </main>
   );
 }
