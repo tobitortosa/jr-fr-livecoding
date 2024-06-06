@@ -3,9 +3,23 @@ main {
   flex: 1;
 }
 
-.deleteMe {
+.mainContainer {
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  padding: 40px;
+}
+
+.container {
+  height: 88%;
+  background-color: white;
+  padding: 30px;
   display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxContainer {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
 }
